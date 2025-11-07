@@ -7,11 +7,11 @@
 2. basic interactions like feeding, patting etc etc
 3. minigames? (potentially)
 ### features Done: 
- ^___^       _
-( -.- )_____/ )
- \          )/
- (          )
-  \/------\/
+ ^___^       _<br/>
+( -.- )_____/ )<br/>
+ \          )/<br/>
+ (          )<br/>
+  \/------\/<br/>
   
 yeah that's it 
 
