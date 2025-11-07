@@ -7,6 +7,7 @@
 2. basic interactions like feeding, patting etc etc
 3. minigames? (potentially)
 ### features Done: 
+<img width="115" height="105" alt="image" src="https://github.com/user-attachments/assets/3c717231-acbd-454e-a832-e653b5790eef" />
 
 yeah that's it 
 
