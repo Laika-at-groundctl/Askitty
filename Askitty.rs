@@ -1,3 +1,5 @@
+mod sprites;
+
 fn main() {
-    println!("hello world");
+    sprites::normal();
 }
