@@ -1,3 +1,5 @@
+use ratatui::{DefualtTerminal, Frame};
+
 mod sprites;
 
 fn main() {
