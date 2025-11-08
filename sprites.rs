@@ -1,20 +1,30 @@
 // where we organise sprites and animations
 
-use std::process::Command;
+use std::{thread, time};
 
 pub fn normal() {
-    let mut x = true;
+    let x = true;
     let frameOne = r" ^___^       _
 ( -.- )_____/ )
  \          )/
  (          )
   \/------\/";
+
+    let frameTwo = r"
+ ^___^       _
+( -.- )_____/ )
+ \          )/
+  \/-------\/";
+
+    let animtime = time::Duration::from_millis(1000);
     while x == true {
         // animation loop
         println!("{}", frameOne);
-        Command::new("clear");
-        .spawn();
-        .except("failed to clear line");
+        thread::sleep(animtime);
+        print!("\x1B[2J\x1B[1;1H");
+        println!("{}", frameTwo);
+        thread::sleep(animtime);
+        print!("\x1b[2J\x1B[1;1H");
 
     }
 }
